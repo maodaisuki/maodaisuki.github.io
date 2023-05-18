@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主页 | mao</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .header img {
+      width: 6em;
+      height: width;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 0.8%;
+      margin-bottom: 20px;
+
+    }
+
+    .header h1 {
+      font-size: 1.4em;
+      margin-bottom: 5px;
+    }
+
+    .header p {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.77em;
+      margin: 0 auto;
+      max-width: 800px;
+      align-items: center;
+    }
+
+    .card {
+      display: flex;
+      gap: 1px;
+      border-radius: 8px;
+      overflow: hidden;
+      color: black;
+      background-color: #ffffff;
+      width: 100%;
+      height: 4.3em;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+    }
+
+    .card img {
+      margin: 0.4em;
+      height: auto;
+      width: height;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.299);
+    }
+
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      align-items: flex-start;
+    }
+
+    .card-info h2 {
+      font-size: 1em;
+    }
+
+    .card-info p {
+      font-size: 0.9em;
+      color: #000000B5;
+    }
+
+    .footer {
+      font-size: 0.8em;
+      margin-top: 3em;
+    }
+
+    .GithubPages {
+      color: black;
+      text-decoration: underline;
+    }
+
+    .GithubPages:hover {
+      text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+      .card-container {
+        justify-content: center;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 480px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="./images/icon.png" alt="Your Name" />
+    <h1>mao</h1>
+    <p><b>いまきっと！</b></p>
+  </div>
+  <div class="card-container">
+    <a href="https://maodaisuki.github.io/blog/" target="_blank" class="card">
+      <img src="./images/blog-icon.png" alt="Blog" />
+      <div class="card-info">
+        <h2>Blog</h2>
+        <p>maodaisuki</p>
+      </div>
+    </a>
+    <a href="https://mstdn.jp/@mao0_0" target="_blank" class="card">
+      <img src="./images/mastodon-icon.png" alt="Mastodon" />
+      <div class="card-info">
+        <h2>Mastodon</h2>
+        <p>@mao0_0@mstdn.jp</p>
+      </div>
+    </a>
+    <a href="https://discord.com/users/mao#1836" target="_blank" class="card">
+      <img src="./images/discord-icon.png" alt="Discord" />
+      <div class="card-info">
+        <h2>Discord</h2>
+        <p>mao#1836</p>
+      </div>
+    </a>
+    <a href="https://twitter.com/ooooooO03033257" target="_blank" class="card">
+      <img src="./images/twitter-icon.png" alt="Twitter" />
+      <div class="card-info">
+        <h2>Twitter</h2>
+        <p>@ooooooO03033257</p>
+      </div>
+    </a>
+    <a href="https://www.last.fm/user/mao0_0" target="_blank" class="card">
+      <img src="./images/lastfm-icon.png" alt="LastFM" />
+      <div class="card-info">
+        <h2>LastFM</h2>
+        <p>@mao0_0</p>
+      </div>
+    </a>
+    <a href="https://github.com/maodaisuki" target="_blank" class="card">
+      <img src="./images/github-icon.png" alt="Github" />
+      <div class="card-info">
+        <h2>Github</h2>
+        <p>@maodaisuki</p>
+      </div>
+    </a>
+  </div>
+  <div class="footer">
+    &copy
+    mao 2023. Powered by <a href="https://pages.github.com/" target="_blank" class="GithubPages">GithubPages</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
