@@ -7,5 +7,6 @@ Disallow: /blog/css/
 Disallow: /blog/js/
 Disallow: /blog/fontawesome/
 Disallow: /wiki/
+Disallow: /hexo-theme-maoblog/
 
 Sitemap: https://maodaisuki.github.io/sitemap.xml
