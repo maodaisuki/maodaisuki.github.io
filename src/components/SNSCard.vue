@@ -5,7 +5,7 @@
                 <a-list-item-meta title="Mastodon" description="@maodaisuki">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/mastodon-icon.png" />
+                            <img alt="avatar" src="/images/mastodon-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -18,7 +18,7 @@
                 <a-list-item-meta title="Discord" description="mao#1836">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/discord-icon.png" />
+                            <img alt="avatar" src="/images/discord-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -31,7 +31,7 @@
                 <a-list-item-meta title="Twitter" description="@ooooooO03033257">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/twitter-icon.png" />
+                            <img alt="avatar" src="/images/twitter-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -44,7 +44,7 @@
                 <a-list-item-meta title="BlueSky" description="@maodaisuki">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/bluesky-icon.png" />
+                            <img alt="avatar" src="/images/bluesky-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -57,7 +57,7 @@
                 <a-list-item-meta title="LastFM" description="@mao0_0">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/lastfm-icon.png" />
+                            <img alt="avatar" src="/images/lastfm-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -70,7 +70,7 @@
                 <a-list-item-meta title="LastFM" description="mao">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/spotify-icon.png" />
+                            <img alt="avatar" src="/images/spotify-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -80,7 +80,7 @@
     <a style="text-decoration: none;" target="_blank" href="https://github.com/maodaisuki">
         <a-list hoverable="true" size="small">
             <a-list-item>
-                <a-list-item-meta title="LastFM" description="maodaisuki">
+                <a-list-item-meta title="Github" description="maodaisuki">
                     <template #avatar>
                         <a-avatar shape="square">
                             <img alt="avatar" src="https://nyanpasu.space/public/images/github-icon.png" />
