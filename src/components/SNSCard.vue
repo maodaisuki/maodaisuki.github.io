@@ -83,7 +83,7 @@
                 <a-list-item-meta title="Github" description="maodaisuki">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/public/images/github-icon.png" />
+                            <img alt="avatar" src="/images/github-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
