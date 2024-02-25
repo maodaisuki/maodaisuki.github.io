@@ -67,7 +67,7 @@
     <a style="text-decoration: none;" target="_blank" href="https://open.spotify.com/user/315uke2awp6jeqw4y6eyi6wxa6ni">
         <a-list hoverable="true" size="small">
             <a-list-item>
-                <a-list-item-meta title="LastFM" description="mao">
+                <a-list-item-meta title="Spotify" description="mao">
                     <template #avatar>
                         <a-avatar shape="square">
                             <img alt="avatar" src="/images/spotify-icon.png" />
