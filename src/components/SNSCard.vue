@@ -1,5 +1,5 @@
 <template>
-    <a style="text-decoration: none;" target="_blank" href="https://mstdn.jp/maodaisuki">
+    <a style="text-decoration: none;" target="_blank" href="https://mstdn.jp/@maodaisuki">
         <a-list hoverable="true" size="small">
             <a-list-item>
                 <a-list-item-meta title="Mastodon" description="@maodaisuki">
