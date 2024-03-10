@@ -1,6 +1,7 @@
 <script setup>
 import SNSCard from '../components/SNSCard.vue';
 import SiteCard from '../components/SiteCard.vue';
+import ProjectCard from '../components/ProjectCard.vue';
 </script>
 <template>
     <div class="link-card">
@@ -11,6 +12,9 @@ import SiteCard from '../components/SiteCard.vue';
             <a-tab-pane key="2" title="サイト">
                 <SiteCard />
             </a-tab-pane>
+            <!-- <a-tab-pane key="3" title="Projects">
+                <ProjectCard />
+            </a-tab-pane> -->
         </a-tabs>
     </div>
 </template>

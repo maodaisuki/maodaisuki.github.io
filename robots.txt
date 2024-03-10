@@ -1,12 +1,3 @@
 User-agent: *
-Disallow: /404.html
-Disallow: /blog/404.html
-Disallow: /maolist/
-Disallow: /js/
-Disallow: /blog/css/
-Disallow: /blog/js/
-Disallow: /blog/fontawesome/
-Disallow: /wiki/
-Disallow: /hexo-theme-maoblog/
-
+Disallog:
 Sitemap: https://maodaisuki.github.io/sitemap.xml
