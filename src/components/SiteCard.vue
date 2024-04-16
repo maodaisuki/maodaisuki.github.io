@@ -5,7 +5,7 @@
                 <a-list-item-meta title="Blog" description="@maodaisuki">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/favicon.ico" />
+                            <img alt="avatar" src="favicon.ico" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -18,7 +18,7 @@
                 <a-list-item-meta title="MaoList" description="Powered by FODI">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/favicon.ico" />
+                            <img alt="avatar" src="favicon.ico" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
@@ -31,7 +31,7 @@
                 <a-list-item-meta title="Memos" description="memomemo">
                     <template #avatar>
                         <a-avatar shape="square">
-                            <img alt="avatar" src="https://nyanpasu.space/favicon.ico" />
+                            <img alt="avatar" src="favicon.ico" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>
