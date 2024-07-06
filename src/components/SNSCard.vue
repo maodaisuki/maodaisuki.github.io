@@ -1,4 +1,17 @@
 <template>
+    <a style="text-decoration: none;" target="_blank" href="https://nyanpasu.space/blog">
+        <a-list hoverable="true" size="small">
+            <a-list-item>
+                <a-list-item-meta title="Blog" description="@maodaisuki">
+                    <template #avatar>
+                        <a-avatar shape="square">
+                            <img alt="avatar" src="/favicon.ico" />
+                        </a-avatar>
+                    </template>
+                </a-list-item-meta>
+            </a-list-item>
+        </a-list>
+    </a>
     <a style="text-decoration: none;" target="_blank" href="https://mstdn.jp/@maodaisuki">
         <a-list hoverable="true" size="small">
             <a-list-item>
@@ -6,45 +19,6 @@
                     <template #avatar>
                         <a-avatar shape="square">
                             <img alt="avatar" src="/images/mastodon-icon.png" />
-                        </a-avatar>
-                    </template>
-                </a-list-item-meta>
-            </a-list-item>
-        </a-list>
-    </a>
-    <a style="text-decoration: none;" target="_blank" href="https://discord.com/users/mao#1836">
-        <a-list hoverable="true" size="small">
-            <a-list-item>
-                <a-list-item-meta title="Discord" description="mao#1836">
-                    <template #avatar>
-                        <a-avatar shape="square">
-                            <img alt="avatar" src="/images/discord-icon.png" />
-                        </a-avatar>
-                    </template>
-                </a-list-item-meta>
-            </a-list-item>
-        </a-list>
-    </a>
-    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/ooooooO03033257">
-        <a-list hoverable="true" size="small">
-            <a-list-item>
-                <a-list-item-meta title="Twitter" description="@ooooooO03033257">
-                    <template #avatar>
-                        <a-avatar shape="square">
-                            <img alt="avatar" src="/images/twitter-icon.png" />
-                        </a-avatar>
-                    </template>
-                </a-list-item-meta>
-            </a-list-item>
-        </a-list>
-    </a>
-    <a style="text-decoration: none;" target="_blank" href="https://bsky.app/profile/maodaisuki.bsky.social">
-        <a-list hoverable="true" size="small">
-            <a-list-item>
-                <a-list-item-meta title="BlueSky" description="@maodaisuki">
-                    <template #avatar>
-                        <a-avatar shape="square">
-                            <img alt="avatar" src="/images/bluesky-icon.png" />
                         </a-avatar>
                     </template>
                 </a-list-item-meta>

@@ -5,17 +5,19 @@ import SiteCard from '../components/SiteCard.vue';
 </script>
 <template>
     <div class="link-card">
-        <a-tabs type="capsule" size="medium" justify="true">
+        <hr>
+        <SNSCard />
+        <!-- <a-tabs type="capsule" size="medium" justify="true">
             <a-tab-pane key="1" title="SNS">
-                <SNSCard />
+                
             </a-tab-pane>
             <a-tab-pane key="2" title="サイト">
                 <SiteCard />
             </a-tab-pane>
-            <!-- <a-tab-pane key="3" title="Projects">
+            <a-tab-pane key="3" title="Projects">
                 <ProjectCard />
-            </a-tab-pane> -->
-        </a-tabs>
+            </a-tab-pane>
+        </a-tabs> -->
     </div>
 </template>
 <style scoped>
@@ -32,5 +34,10 @@ import SiteCard from '../components/SiteCard.vue';
     }
     .arco-tabs-content {
         padding-top: 5px !important;
+    }
+    hr {
+        border: none;
+        border-top: 1px solid rgb(221, 221, 221);
+        margin: 10px 0;
     }
 </style>
