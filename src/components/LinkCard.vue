@@ -1,6 +1,5 @@
 <script setup>
 import SNSCard from '../components/SNSCard.vue';
-import SiteCard from '../components/SiteCard.vue';
 // import ProjectCard from '../components/ProjectCard.vue';
 </script>
 <template>
