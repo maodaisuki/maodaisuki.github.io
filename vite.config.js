@@ -2,7 +2,6 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,9 +9,6 @@ export default defineConfig({
   base: '/',
   plugins: [
     vue(),
-    sitemapPlugin({
-      hostname: 'nyanpasu.space'
-    }),
   ],
   resolve: {
     alias: {
