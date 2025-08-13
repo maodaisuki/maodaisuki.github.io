@@ -13,7 +13,7 @@ const currentYear = (new Date()).getFullYear();
     </div>
     <div class="footer" style="margin: 20px auto; align-items: center; text-align: center;">
       <p style="color: #616161;">
-        &copy;2023-{{ currentYear }} mao / <a target="_blank" style="color: #616161;" href="https://nyanpasu.space/status">Sites Status</a>
+        &copy;2023-{{ currentYear }} mao
       </p>
     </div>
   </main>
